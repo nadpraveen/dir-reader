@@ -1,0 +1,18 @@
+{
+    "name": "techunico/dir-reader",
+    "description": "this is a simple directory reader which will read the contents of given directory and return all the elements in an array",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Techunico\\DirReader\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Praveen Kumar",
+            "email": "praveen.42000@gmail.com"
+        }
+    ],
+    "require": {}
+}
