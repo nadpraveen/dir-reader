@@ -2,15 +2,10 @@
     "name": "techunico/dir-reader",
     "description": "this is a simple directory reader writen in php which can read the contents of given directory and return an array",
     "type": "library",
-    "license": "Mit",
-    "autoload": {
-        "psr-4": {
-            "Techunico\\DirReader\\": "src/"
-        }
-    },
+    "license": "MIt",
     "authors": [
         {
-            "name": "Techunic",
+            "name": "Techunico",
             "email": "admin@techunico.com"
         }
     ],
