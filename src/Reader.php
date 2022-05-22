@@ -2,7 +2,7 @@
 
 namespace Techunico\DirReader;
 
-class reader{
+class Reader{
 
   public function dirreader($directory, array $excludefiles = ['.', '..']) {
 
