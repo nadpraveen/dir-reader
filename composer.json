@@ -1,6 +1,8 @@
 {
     "name": "techunico/dir-reader",
+    "description": "this is a simple directory reader writen in php which can read the contents of given directory and return an array",
     "type": "library",
+    "license": "Mit",
     "autoload": {
         "psr-4": {
             "Techunico\\DirReader\\": "src/"
@@ -8,8 +10,8 @@
     },
     "authors": [
         {
-            "name": "Praveen Kumar",
-            "email": "praveen.42000@gmail.com"
+            "name": "Techunic",
+            "email": "admin@techunico.com"
         }
     ],
     "require": {}
