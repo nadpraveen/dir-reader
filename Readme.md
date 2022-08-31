@@ -7,5 +7,6 @@ This is simple director reader written in PHP. This will read the contents of th
 
 `
 $contents = new Reader;
+
 $contents->dirreader('$directory');
 `
