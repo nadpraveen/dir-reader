@@ -3,16 +3,20 @@
 namespace Techunico\DirReader;
 
 class Reader{
+    private $directory;
+    public $files;
 
-  public function dirreader($directory, array $excludefiles = ['.', '..']) {
+    public function dirreader($directory, array $excludefiles = ['.', '..']) {
+        
+        $this->directory = $directory;
 
-      $files = [];
+        $this->files = [];
 
-      if (!is_dir($directory)) {
+      if (!is_dir($this->directory)) {
           return null;
       }
 
-      if (!($filedir = opendir($directory))) {
+      if (!($filedir = opendir($this->directory))) {
           return null;
       }
 
@@ -22,10 +26,10 @@ class Reader{
               continue;
           }
 
-          $files[] = $directory . '/' . $file;
+          $this->files[] = $directory . '/' . $file;
       }
 
       closedir($filedir);
-      return $files;
+      return $this->files;
   }
 }
